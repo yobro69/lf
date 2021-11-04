@@ -31,7 +31,6 @@ controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
     mySprite2.x += -3
 })
 let laser: Sprite = null
-let mySprite: Sprite = null
 let mySprite2: Sprite = null
 scene.setBackgroundColor(15)
 mySprite2 = sprites.create(img`
@@ -53,7 +52,7 @@ mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
 mySprite2.setPosition(75, 100)
-mySprite.setBounceOnWall(true)
+mySprite2.setBounceOnWall(true)
 forever(function () {
 	
 })
